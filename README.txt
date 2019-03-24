@@ -1,0 +1,3 @@
+For the process method, I used a shared memory array where each process will update a cell corresponding to the configuration of the node. nodesDP will then read from the shared memory at the end to update the cellValue accordingly.
+
+For the thread method, there appears to be an occasional segfault when running the binary. If it occurs, please run it a few more times and it should print the values accordingly. Thanks :)
